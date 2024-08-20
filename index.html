@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam's Web Portfolio</title>
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Sam's Web Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Sam Mittal</h1>
+        <p>
+          I'm a web developer who loves to create beautiful and functional
+          websites for people who want to make a difference in the world.
+        </p>
+        <p>
+          Currently I'm a student of St. Joseph's Convent School Moga, and
+          Studing in Clas 9th, on the other hand, I'm learning how to create
+          beautiful and functional websites using HTML, CSS, JavaScript, and
+          WordPress.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/isammittal"
+            ><i class="bx bxl-github" style="font-size: 24px"></i
+          ></a>
+          <a href="https://x.com/SamMittal2010"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/sam_mittal__/?hl=en"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/isammittal-sam-507911278/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="http://www.youtube.com/@code_crafts_man"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+        </div>
+
+        <a href="Resume.pdf" download="Resume.pdf" class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-camera"></i>
+            <h3>Python Developer</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-palette"></i>
+            <h3>Web Designer</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-video-recording"></i>
+            <h3>Videoeditor</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="Sam's Image.png" alt="Sam's Image" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="about.png" alt="Img About Me" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>
+          Hi there, welcome to my Portfolio! I'm Sam, a passionate web developer
+          and a Python Developer who enjoys learning new technologies and
+          solving problems with code!
+        </h3>
+        <p>
+          This Portfolio is my personal blog where I write about web development
+          topics that interest me and inspire me.
+        </p>
+        <p>
+          Thank you for visiting my Portfolio and getting to know me better. I
+          hope you enjoyed reading my blog posts and found them useful and
+          informative. If you have any feedback or suggestions, please let me
+          know. I'd love to hear from you.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I provide professional web development, offering custom-built
+            websites that are responsive, user-friendly, and optimized for
+            performance. Enhance your brand with a strong online presence.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Python</h3>
+          <p>
+            I provide Python development services, focusing on creating
+            practical solutions for your projects. Whether it's web applications
+            or simple automation tasks, I can help bring your ideas to life.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Video Editing</h3>
+          <p>
+            I offer video editing services to help you create polished and
+            engaging content. From simple cuts to more complex edits, I can help
+            bring your vision to life.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Achievements</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="HTML.png" alt="HTML Certificate" />
+
+          <div class="portfolio-layer">
+            <h4>HTML</h4>
+            <p>
+              Mastered the structure and semantics of web pages, focusing on
+              creating well-organized and accessible content. This certificate
+              confirms my expertise in crafting the backbone of websites using
+              HTML.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="CSS.jpg" alt="CSS Certificate" />
+
+          <div class="portfolio-layer">
+            <h4>CSS</h4>
+            <p>
+              Developed the ability to style and design visually appealing,
+              responsive web pages. This certification highlights my proficiency
+              in using CSS to enhance user experience through creative and
+              functional designs.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="JS.jpg" alt="JS Certificate" />
+
+          <div class="portfolio-layer">
+            <h4>JS</h4>
+            <p>
+              Developed a strong understanding of JavaScript, enabling me to
+              build dynamic, interactive web applications. This certification
+              demonstrates my ability to bring websites to life with engaging
+              features and functionality.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="Python.png" alt="Python Certificate" />
+
+          <div class="portfolio-layer">
+            <h4>Python</h4>
+            <p>
+              Gained expertise in Python programming, focusing on
+              problem-solving and efficient coding practices. This certificate
+              showcases my ability to develop robust software solutions using
+              Python's versatile capabilities.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="Web Dev.jpg" alt="WEB DEV Certificate" />
+
+          <div class="portfolio-layer">
+            <h4>Web Development</h4>
+            <p>
+              Acquired comprehensive skills in full-stack web development,
+              including front-end and back-end technologies. This certification
+              reflects my competence in building and maintaining complete,
+              functional websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="60903e6f-9e21-425e-932c-0f8c83fa3c45"
+        />
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="Email Address"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            name="Mobile Number"
+            placeholder="Mobile Number"
+            required
+          />
+          <input
+            type="text"
+            name="Subject"
+            placeholder="Email Subject"
+            required
+          />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input
+          id="contact-form"
+          type="submit"
+          name="Message"
+          value="Send Message"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 Sam | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
