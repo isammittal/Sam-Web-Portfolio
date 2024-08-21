@@ -633,7 +633,8 @@ span {
   }
 
   .home-img img {
-    right: 0;
+    /* right: 0; */
+    display: none;
   }
 }
 
@@ -644,6 +645,8 @@ span {
 
   .home-img img {
     max-width: 420px;
+    display: none;
+    /* right: 100px; */
   }
 }
 
@@ -666,6 +669,8 @@ span {
 
   .home-img img {
     max-width: 400px;
+    display: none;
+    /* right: 0; */
   }
 }
 
@@ -692,11 +697,13 @@ span {
   }
 
   .home-img img {
-    text-align: center;
+    /* text-align: center;
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100px;
+    width: 100px; */
+
+    display: none;
   }
 
   .footer {
@@ -716,11 +723,19 @@ span {
   .home .profession-container .overlay {
     right: -43%;
   }
+
+  .home-img img {
+    display: none;
+  }
 }
 
 @media (max-width: 879px) {
   .portfolio .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-img{
+    display: none;
   }
 }
 
@@ -728,11 +743,19 @@ span {
   .navbar a:nth-child(2) {
     color: var(--white-color);
   }
+
+  .home-img img {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+  }
+
+  .home-img img {
+    display: none;
   }
 
   #darkMode-icon {
@@ -884,11 +907,19 @@ span {
   .portfolio .portfolio-container {
     grid-template-columns: 1fr;
   }
+
+  .home-img img {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .home-img img {
+    display: none;
   }
 
   #darkMode-icon {
@@ -933,11 +964,19 @@ span {
   .about-img img {
     width: 90vw;
   }
+
+  .home-img img {
+    display: none;
+  }
 }
 
 @media (max-width: 315px) {
   .home-content h1 {
     font-size: 4.5rem;
+  }
+
+  .home-img img {
+    display: none;
   }
 }
 img {
@@ -952,6 +991,10 @@ img {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
+  }
+
+  .home-img img {
+    display: none;
   }
 
   .navbar a {
@@ -983,6 +1026,10 @@ img {
 @media (max-width: 480px) {
   .navbar {
     padding: 10px 15px;
+  }
+
+  .home-img img {
+    display: none;
   }
 
   .navbar a {
@@ -1019,6 +1066,10 @@ img {
     padding: 8px 5px;
   }
 
+  .home-img img {
+    display: none;
+  }
+
   .home-content h1 {
     font-size: 20px;
   }
@@ -1027,3 +1078,4 @@ img {
     font-size: 12px;
   }
 }
+
